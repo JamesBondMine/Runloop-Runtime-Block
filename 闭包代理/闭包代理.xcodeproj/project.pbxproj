@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2206B5E01E5D76D100AFFF21 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2206B5DF1E5D76D100AFFF21 /* TabViewController.m */; };
+		2210D7A81E56DB8B0043F708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210D7A71E56DB8B0043F708 /* main.m */; };
+		2210D7AB1E56DB8B0043F708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210D7AA1E56DB8B0043F708 /* AppDelegate.m */; };
+		2210D7AE1E56DB8B0043F708 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210D7AD1E56DB8B0043F708 /* ViewController.m */; };
+		2210D7B11E56DB8B0043F708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2210D7AF1E56DB8B0043F708 /* Main.storyboard */; };
+		2210D7B31E56DB8B0043F708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2210D7B21E56DB8B0043F708 /* Assets.xcassets */; };
+		2210D7B61E56DB8B0043F708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2210D7B41E56DB8B0043F708 /* LaunchScreen.storyboard */; };
+		2210D7BF1E56DBDB0043F708 /* BIDaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210D7BE1E56DBDB0043F708 /* BIDaiViewController.m */; };
+		222278DC1E5AC5D300FEBB58 /* LoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222278DB1E5AC5D300FEBB58 /* LoopViewController.m */; };
+		222278E01E5AD3E200FEBB58 /* NSURL+Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 222278DF1E5AD3E200FEBB58 /* NSURL+Request.m */; };
+		77CB6F8D57814D179A2C5B1F /* libPods-闭包代理.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0742F27B2B22771BC9E09481 /* libPods-闭包代理.a */; };
+		F053DD191E593A2700B355E1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F053DD181E593A2700B355E1 /* Person.m */; };
+		F053DD1C1E593A6900B355E1 /* MessigeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F053DD1B1E593A6900B355E1 /* MessigeViewController.m */; };
+		F053DD241E5977CC00B355E1 /* UIView+CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F053DD231E5977CC00B355E1 /* UIView+CustomView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0742F27B2B22771BC9E09481 /* libPods-闭包代理.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-闭包代理.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2206B5DE1E5D76D100AFFF21 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		2206B5DF1E5D76D100AFFF21 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		2210D7A31E56DB8B0043F708 /* 闭包代理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "闭包代理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2210D7A71E56DB8B0043F708 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2210D7A91E56DB8B0043F708 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2210D7AA1E56DB8B0043F708 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2210D7AC1E56DB8B0043F708 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2210D7AD1E56DB8B0043F708 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2210D7B01E56DB8B0043F708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2210D7B21E56DB8B0043F708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2210D7B51E56DB8B0043F708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2210D7B71E56DB8B0043F708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2210D7BD1E56DBDB0043F708 /* BIDaiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDaiViewController.h; sourceTree = "<group>"; };
+		2210D7BE1E56DBDB0043F708 /* BIDaiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDaiViewController.m; sourceTree = "<group>"; };
+		222278DA1E5AC5D300FEBB58 /* LoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopViewController.h; sourceTree = "<group>"; };
+		222278DB1E5AC5D300FEBB58 /* LoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopViewController.m; sourceTree = "<group>"; };
+		222278DD1E5ACDC200FEBB58 /* BlockTimeLoop.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTimeLoop.pch; sourceTree = "<group>"; };
+		222278DE1E5AD3E200FEBB58 /* NSURL+Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Request.h"; sourceTree = "<group>"; };
+		222278DF1E5AD3E200FEBB58 /* NSURL+Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Request.m"; sourceTree = "<group>"; };
+		3B477E3C1C8185CCC4A5F191 /* Pods-闭包代理.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-闭包代理.release.xcconfig"; path = "Pods/Target Support Files/Pods-闭包代理/Pods-闭包代理.release.xcconfig"; sourceTree = "<group>"; };
+		7DF6C5190A74D9A8FF19D012 /* Pods-闭包代理.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-闭包代理.debug.xcconfig"; path = "Pods/Target Support Files/Pods-闭包代理/Pods-闭包代理.debug.xcconfig"; sourceTree = "<group>"; };
+		F053DD171E593A2700B355E1 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F053DD181E593A2700B355E1 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F053DD1A1E593A6900B355E1 /* MessigeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessigeViewController.h; sourceTree = "<group>"; };
+		F053DD1B1E593A6900B355E1 /* MessigeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessigeViewController.m; sourceTree = "<group>"; };
+		F053DD1E1E5940D200B355E1 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		F053DD201E5941D800B355E1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F053DD221E5977CC00B355E1 /* UIView+CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomView.h"; sourceTree = "<group>"; };
+		F053DD231E5977CC00B355E1 /* UIView+CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2210D7A01E56DB8B0043F708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CB6F8D57814D179A2C5B1F /* libPods-闭包代理.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BBD5720D8FF00941A2BDA06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DF6C5190A74D9A8FF19D012 /* Pods-闭包代理.debug.xcconfig */,
+				3B477E3C1C8185CCC4A5F191 /* Pods-闭包代理.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2210D79A1E56DB8B0043F708 = {
+			isa = PBXGroup;
+			children = (
+				2210D7A51E56DB8B0043F708 /* 闭包代理 */,
+				2210D7A41E56DB8B0043F708 /* Products */,
+				F053DD1D1E5940D200B355E1 /* Frameworks */,
+				0BBD5720D8FF00941A2BDA06 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2210D7A41E56DB8B0043F708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2210D7A31E56DB8B0043F708 /* 闭包代理.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2210D7A51E56DB8B0043F708 /* 闭包代理 */ = {
+			isa = PBXGroup;
+			children = (
+				2210D7A91E56DB8B0043F708 /* AppDelegate.h */,
+				2210D7AA1E56DB8B0043F708 /* AppDelegate.m */,
+				2210D7AC1E56DB8B0043F708 /* ViewController.h */,
+				2210D7AD1E56DB8B0043F708 /* ViewController.m */,
+				2210D7AF1E56DB8B0043F708 /* Main.storyboard */,
+				2210D7BD1E56DBDB0043F708 /* BIDaiViewController.h */,
+				2210D7BE1E56DBDB0043F708 /* BIDaiViewController.m */,
+				F053DD171E593A2700B355E1 /* Person.h */,
+				F053DD181E593A2700B355E1 /* Person.m */,
+				222278DE1E5AD3E200FEBB58 /* NSURL+Request.h */,
+				222278DF1E5AD3E200FEBB58 /* NSURL+Request.m */,
+				F053DD1A1E593A6900B355E1 /* MessigeViewController.h */,
+				F053DD1B1E593A6900B355E1 /* MessigeViewController.m */,
+				F053DD221E5977CC00B355E1 /* UIView+CustomView.h */,
+				F053DD231E5977CC00B355E1 /* UIView+CustomView.m */,
+				222278DA1E5AC5D300FEBB58 /* LoopViewController.h */,
+				222278DB1E5AC5D300FEBB58 /* LoopViewController.m */,
+				2206B5DE1E5D76D100AFFF21 /* TabViewController.h */,
+				2206B5DF1E5D76D100AFFF21 /* TabViewController.m */,
+				2210D7B21E56DB8B0043F708 /* Assets.xcassets */,
+				2210D7B41E56DB8B0043F708 /* LaunchScreen.storyboard */,
+				2210D7B71E56DB8B0043F708 /* Info.plist */,
+				2210D7A61E56DB8B0043F708 /* Supporting Files */,
+			);
+			path = "闭包代理";
+			sourceTree = "<group>";
+		};
+		2210D7A61E56DB8B0043F708 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2210D7A71E56DB8B0043F708 /* main.m */,
+				222278DD1E5ACDC200FEBB58 /* BlockTimeLoop.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F053DD1D1E5940D200B355E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F053DD201E5941D800B355E1 /* MessageUI.framework */,
+				F053DD1E1E5940D200B355E1 /* Messages.framework */,
+				0742F27B2B22771BC9E09481 /* libPods-闭包代理.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2210D7A21E56DB8B0043F708 /* 闭包代理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2210D7BA1E56DB8B0043F708 /* Build configuration list for PBXNativeTarget "闭包代理" */;
+			buildPhases = (
+				56AB3D5C1DC7088CE119E224 /* 📦 Check Pods Manifest.lock */,
+				2210D79F1E56DB8B0043F708 /* Sources */,
+				2210D7A01E56DB8B0043F708 /* Frameworks */,
+				2210D7A11E56DB8B0043F708 /* Resources */,
+				5E8DB6C9FD80B43A32E3FD0A /* 📦 Embed Pods Frameworks */,
+				DCB0789B2AC4343FBA470498 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "闭包代理";
+			productName = "闭包代理";
+			productReference = 2210D7A31E56DB8B0043F708 /* 闭包代理.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2210D79B1E56DB8B0043F708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = James;
+				TargetAttributes = {
+					2210D7A21E56DB8B0043F708 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7XAXP72L8N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2210D79E1E56DB8B0043F708 /* Build configuration list for PBXProject "闭包代理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2210D79A1E56DB8B0043F708;
+			productRefGroup = 2210D7A41E56DB8B0043F708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2210D7A21E56DB8B0043F708 /* 闭包代理 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2210D7A11E56DB8B0043F708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2210D7B61E56DB8B0043F708 /* LaunchScreen.storyboard in Resources */,
+				2210D7B31E56DB8B0043F708 /* Assets.xcassets in Resources */,
+				2210D7B11E56DB8B0043F708 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56AB3D5C1DC7088CE119E224 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E8DB6C9FD80B43A32E3FD0A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-闭包代理/Pods-闭包代理-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCB0789B2AC4343FBA470498 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-闭包代理/Pods-闭包代理-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2210D79F1E56DB8B0043F708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F053DD1C1E593A6900B355E1 /* MessigeViewController.m in Sources */,
+				2210D7BF1E56DBDB0043F708 /* BIDaiViewController.m in Sources */,
+				F053DD241E5977CC00B355E1 /* UIView+CustomView.m in Sources */,
+				222278E01E5AD3E200FEBB58 /* NSURL+Request.m in Sources */,
+				2206B5E01E5D76D100AFFF21 /* TabViewController.m in Sources */,
+				2210D7AE1E56DB8B0043F708 /* ViewController.m in Sources */,
+				F053DD191E593A2700B355E1 /* Person.m in Sources */,
+				2210D7AB1E56DB8B0043F708 /* AppDelegate.m in Sources */,
+				2210D7A81E56DB8B0043F708 /* main.m in Sources */,
+				222278DC1E5AC5D300FEBB58 /* LoopViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2210D7AF1E56DB8B0043F708 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2210D7B01E56DB8B0043F708 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2210D7B41E56DB8B0043F708 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2210D7B51E56DB8B0043F708 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2210D7B81E56DB8B0043F708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2210D7B91E56DB8B0043F708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2210D7BB1E56DB8B0043F708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF6C5190A74D9A8FF19D012 /* Pods-闭包代理.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7XAXP72L8N;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/闭包代理/BlockTimeLoop.pch";
+				INFOPLIST_FILE = "闭包代理/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "James.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2210D7BC1E56DB8B0043F708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B477E3C1C8185CCC4A5F191 /* Pods-闭包代理.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7XAXP72L8N;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/闭包代理/BlockTimeLoop.pch";
+				INFOPLIST_FILE = "闭包代理/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "James.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2210D79E1E56DB8B0043F708 /* Build configuration list for PBXProject "闭包代理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2210D7B81E56DB8B0043F708 /* Debug */,
+				2210D7B91E56DB8B0043F708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2210D7BA1E56DB8B0043F708 /* Build configuration list for PBXNativeTarget "闭包代理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2210D7BB1E56DB8B0043F708 /* Debug */,
+				2210D7BC1E56DB8B0043F708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2210D79B1E56DB8B0043F708 /* Project object */;
+}
